@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIMENSIONS | Bespoke Interior Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .tracking-ultra { letter-spacing: 0.25em; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- --- NAVIGATION --- -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-6 border-b border-gray-100 sticky top-0 bg-white/90 backdrop-blur-md z-50">
+        <div class="text-xl font-bold tracking-ultra uppercase">Dimensions</div>
+        <div class="hidden md:flex gap-8 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
+            <a href="#" class="hover:text-black transition">Home</a>
+            <a href="#" class="hover:text-black transition">Bespoke Creations</a>
+            <a href="#" class="hover:text-black transition">Curated Collection</a>
+            <a href="#" class="hover:text-black transition">Brand Partners</a>
+        </div>
+        <div class="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x22="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </div>
+    </nav>
+
+    <!-- --- HERO SECTION --- -->
+    <section class="relative h-[85vh] flex items-center justify-center text-center px-6 overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=2000" 
+                 class="w-full h-full object-cover" alt="Luxury Interior">
+            <div class="absolute inset-0 bg-black/50"></div>
+        </div>
+
+        <div class="relative z-10 text-white max-w-4xl">
+            <h1 class="text-5xl md:text-8xl font-bold tracking-ultra uppercase mb-6">Dimensions</h1>
+            <h2 class="text-lg md:text-xl font-medium tracking-widest mb-8 opacity-90">Where Vision Takes Shape</h2>
+            <p class="text-xs md:text-sm text-gray-300 leading-relaxed font-light max-w-xl mx-auto uppercase tracking-wider">
+                Designed. Crafted. Curated. Every piece tells a story of exceptional quality and timeless elegance.
+            </p>
+        </div>
+    </section>
+
+    <!-- --- PHILOSOPHY SECTION --- -->
+    <section class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="text-center mb-20">
+            <h2 class="text-4xl font-semibold mb-3 tracking-tight">Our Philosophy</h2>
+            <p class="text-gray-400 text-xs uppercase tracking-[0.2em]">Three pillars of excellence, unified by one design DNA</p>
+        </div>
+
+        <!-- --- CARDS GRID --- -->
+        <div class="grid md:grid-cols-3 gap-12">
+            
+            <!-- Card 1 -->
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden mb-8 bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1581450134468-ce509d2d0c0e?auto=format&fit=crop&q=80&w=800" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition duration-700" alt="Craft">
+                </div>
+                <p class="text-[9px] uppercase tracking-[0.3em] text-gray-400 mb-3">Bespoke Design & Craftsmanship</p>
+                <h3 class="text-xl font-bold mb-4 uppercase tracking-tight">Tailored Creations</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6">
+                    From concept to completion, we craft furniture that's uniquely yours. Every dimension, finish, and detail tailored to your vision.
+                </p>
+                <a href="#" class="inline-flex items-center text-[10px] font-bold uppercase tracking-widest border-b border-black pb-1 hover:pr-4 transition-all">
+                    Explore <span class="ml-2">→</span>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden mb-8 bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&q=80&w=800" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition duration-700" alt="Collection">
+                </div>
+                <p class="text-[9px] uppercase tracking-[0.3em] text-gray-400 mb-3">Curated & Ready to Take Home</p>
+                <h3 class="text-xl font-bold mb-4 uppercase tracking-tight">Ready Collections</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6">
+                    Discover our handpicked selection of designer pieces. Ready to elevate your space with the same attention to detail.
+                </p>
+                <a href="#" class="inline-flex items-center text-[10px] font-bold uppercase tracking-widest border-b border-black pb-1 hover:pr-4 transition-all">
+                    Explore <span class="ml-2">→</span>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden mb-8 bg-gray-100">
+                    <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&q=80&w=800" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition duration-700" alt="Brands">
+                </div>
+                <p class="text-[9px] uppercase tracking-[0.3em] text-gray-400 mb-3">Exceptional Global Partnerships</p>
+                <h3 class="text-xl font-bold mb-4 uppercase tracking-tight">Curated Brands</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6">
+                    We collaborate with select international brands that share our commitment to design excellence and quality.
+                </p>
+                <a href="#" class="inline-flex items-center text-[10px] font-bold uppercase tracking-widest border-b border-black pb-1 hover:pr-4 transition-all">
+                    Explore <span class="ml-2">→</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer class="bg-[#0b0f17] text-white py-32 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-2xl md:text-4xl font-light leading-relaxed mb-10 tracking-tight">
+                Every piece — whether bespoke, ready-made, or curated — embodies our commitment to design excellence and quality craftsmanship.
+            </h2>
+            <p class="text-gray-500 text-xs uppercase tracking-[0.3em] mb-4">
+                We don't just sell furniture. We create spaces that inspire.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
